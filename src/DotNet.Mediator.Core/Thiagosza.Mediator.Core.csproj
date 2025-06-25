@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>DotNet.Mediator.Core</RootNamespace>
+    <RootNamespace>Thiagosza.Mediator.Core</RootNamespace>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
     
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     
-    <PackageId>DotNet.Mediator.Core</PackageId>
-    <Title>DotNet.Mediator.Core</Title>
+    <PackageId>Thiagosza.Mediator.Core</PackageId>
+    <Title>Thiagosza.Mediator.Core</Title>
     <PackageVersion>1.0.0</PackageVersion>
 
     <Authors>Thiago Sonza</Authors>
@@ -20,8 +20,8 @@
     </Description>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <ProjectUrl>https://github.com/thiagosonza/DotNet.Mediator.Core</ProjectUrl>
-    <RepositoryUrl>https://github.com/thiagosonza/DotNet.Mediator.Core</RepositoryUrl>
+    <ProjectUrl>https://github.com/thiagosonza/Thiagosza.Mediator.Core</ProjectUrl>
+    <RepositoryUrl>https://github.com/thiagosonza/Thiagosza.Mediator.Core</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
 
     <PackageTags>mediator;CQRS;dotnet;pipeline;handler;mediatR;command;query</PackageTags>

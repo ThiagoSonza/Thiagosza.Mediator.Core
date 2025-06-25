@@ -1,10 +1,10 @@
-﻿using DotNet.Mediator.Core.Interfaces;
+﻿using Thiagosza.Mediator.Core.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 using System.Reflection;
 
-namespace DotNet.Mediator.Core.Extensions
+namespace Thiagosza.Mediator.Core.Extensions
 {
     public static class ServiceCollectionExtensions
     {

@@ -17,12 +17,12 @@ Uma biblioteca leve, extensível e moderna para aplicações .NET que seguem o p
 ## 📦 Instalação
 
 ```bash
-dotnet add package DotNet.Mediator.Core
+dotnet add package Thiagosza.Mediator.Core
 ```
 
 Ou edite seu .csproj:
 ```bash
-<PackageReference Include="DotNet.Mediator.Core" Version="1.0.0" />
+<PackageReference Include="Thiagosza.Mediator.Core" Version="1.0.1" />
 ```
 
 ## 🚀 Exemplo de Uso

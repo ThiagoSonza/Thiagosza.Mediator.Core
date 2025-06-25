@@ -1,4 +1,4 @@
-﻿namespace DotNet.Mediator.Core.Interfaces
+﻿namespace Thiagosza.Mediator.Core.Interfaces
 {
     public interface INotification { }
 }

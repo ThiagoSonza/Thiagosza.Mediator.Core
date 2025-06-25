@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace DotNet.Mediator.Core.Interfaces
+namespace Thiagosza.Mediator.Core.Interfaces
 {
     public interface INotificationHandler<in TNotification>
         where TNotification : INotification

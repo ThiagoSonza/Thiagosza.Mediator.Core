@@ -1,10 +1,10 @@
-﻿using DotNet.Mediator.Core.Interfaces;
+﻿using Thiagosza.Mediator.Core.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace DotNet.Mediator.Core.Implementation
+namespace Thiagosza.Mediator.Core.Implementation
 {
     public class Mediator : IMediator
     {
