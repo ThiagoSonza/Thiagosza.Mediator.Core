@@ -10,7 +10,7 @@
     
     <PackageId>Thiagosza.Mediator.Core</PackageId>
     <Title>Thiagosza.Mediator.Core</Title>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
 
     <Authors>Thiago Sonza</Authors>
