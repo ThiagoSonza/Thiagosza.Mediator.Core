@@ -10,7 +10,8 @@
     
     <PackageId>Thiagosza.Mediator.Core</PackageId>
     <Title>Thiagosza.Mediator.Core</Title>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
 
     <Authors>Thiago Sonza</Authors>
     <Company>Thiago Sonza Tech</Company>
@@ -34,4 +35,7 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>
