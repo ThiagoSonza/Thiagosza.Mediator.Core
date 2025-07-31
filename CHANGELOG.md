@@ -1,18 +1,24 @@
 # Changelog
 
-Todas as mudanças relevantes deste projeto serão documentadas aqui.
+Todas as mudanï¿½as relevantes deste projeto serï¿½o documentadas aqui.
 
-O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/)
+O formato ï¿½ baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/)
 e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [1.0.5] - 2025-07-31
+
+### Adicionado
+
+- CorreÃ§Ãµes nas injeÃ§Ãµes das dependÃªncias do Mediator para Scoped.
+
 ## [1.0.0] - 2025-06-25
 
 ### Adicionado
-- Primeira versão estável do pacote `Thiagosza.Mediator.Core`.
-- Interface `IMediator` com métodos `Send<T>` e `Publish`.
-- Suporte a `IRequest`e `IRequestHandler<>` compatíveis com commands e queries.
-- Integração com DI via `IServiceCollection.AddMediator(...)`.
-- Exemplos básicos no README.
 
+- Primeira versï¿½o estï¿½vel do pacote `Thiagosza.Mediator.Core`.
+- Interface `IMediator` com mï¿½todos `Send<T>` e `Publish`.
+- Suporte a `IRequest`e `IRequestHandler<>` compatï¿½veis com commands e queries.
+- Integraï¿½ï¿½o com DI via `IServiceCollection.AddMediator(...)`.
+- Exemplos bï¿½sicos no README.

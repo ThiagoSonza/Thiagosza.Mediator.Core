@@ -11,8 +11,8 @@ namespace Thiagosza.Mediator.Core.Extensions
         public static IServiceCollection AddMediator(this IServiceCollection services, params object[] args)
         {
             var assemblies = ResolveAssemblies(args);
-            
-            services.AddSingleton<IMediator, Implementation.Mediator>();
+
+            services.AddScoped<IMediator, Implementation.Mediator>();
 
             RegisterHandlers(services, assemblies, typeof(INotificationHandler<>));
             RegisterHandlers(services, assemblies, typeof(IRequestHandler<,>));
@@ -38,9 +38,9 @@ namespace Thiagosza.Mediator.Core.Extensions
                 var prefixes = args.Cast<string>().ToArray();
                 return AppDomain.CurrentDomain
                     .GetAssemblies()
-                    .Where(a => 
-                        !a.IsDynamic && 
-                        !string.IsNullOrEmpty(a.FullName) && 
+                    .Where(a =>
+                        !a.IsDynamic &&
+                        !string.IsNullOrEmpty(a.FullName) &&
                         prefixes.Any(p => a.FullName.StartsWith(p)))
                     .ToArray();
             }
@@ -62,7 +62,7 @@ namespace Thiagosza.Mediator.Core.Extensions
                     .ToList();
 
                 foreach (var iface in interfaces)
-                    services.AddTransient(iface, type);
+                    services.AddScoped(iface, type);
             }
         }
     }

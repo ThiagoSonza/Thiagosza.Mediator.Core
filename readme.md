@@ -21,11 +21,13 @@ dotnet add package Thiagosza.Mediator.Core
 ```
 
 Ou edite seu .csproj:
+
 ```bash
-<PackageReference Include="Thiagosza.Mediator.Core" Version="1.0.1" />
+<PackageReference Include="Thiagosza.Mediator.Core" Version="1.0.5" />
 ```
 
 ## 🚀 Exemplo de Uso
+
 Defina um comando ou consulta
 
 ```csharp
@@ -45,6 +47,7 @@ public class ClassHandler : IRequestHandler<ClassCommand, string>
 ```
 
 Crie a controller
+
 ```csharp
 [ApiController]
 [Route("[controller]")]
@@ -62,6 +65,7 @@ public class WeatherForecastController() : ControllerBase
 ```
 
 E registrar no `Program.cs`:
+
 ```csharp
 builder.Services.AddMediator();
 ```
